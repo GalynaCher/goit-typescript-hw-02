@@ -1,0 +1,47 @@
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    outline: none;
+    transition: transform 500ms ease-in-out, opacity 500ms ease-in-out;
+    /* opacity: 0; */
+    transform: translate(-50%, -45%);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(27, 26, 26, 0.75);
+    transition: opacity 500ms ease-in-out;
+    /* opacity: 0; */
+}
+
+.modalImage {
+    max-width: 100%;
+    max-height: 80vh;
+}
+
+.overlay.ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+.overlay.ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
+.modal.ReactModal__Content--after-open {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+
+.modal.ReactModal__Content--before-close {
+    opacity: 0;
+    transform: translate(-50%, -45%);
+}

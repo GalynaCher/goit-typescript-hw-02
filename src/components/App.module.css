@@ -1,0 +1,19 @@
+.endMsgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+}
+
+.endMsgP {
+    color: rgb(31 102 37 / 75%);
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 250ms linear;
+}
+
+.endMsgP:hover {
+    color: rgba(2, 10, 3, 0.75);
+    cursor: pointer;
+}

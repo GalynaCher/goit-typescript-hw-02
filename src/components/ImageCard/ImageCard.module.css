@@ -1,0 +1,14 @@
+.divImage {
+    height: 250px;
+    /* transition: border-color 250ms linear; */
+}
+
+.cardImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.divImage:hover {
+    border-color: rgb(31 102 37 / 75%);
+}

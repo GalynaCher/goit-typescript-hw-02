@@ -1,0 +1,9 @@
+.galleryUl {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.galleryLi {
+    width: calc((100% - 3*8px) / 4);
+}
